@@ -1,0 +1,50 @@
+/* App.css */
+
+.app-wrapper {
+  position: relative;
+ background: linear-gradient(
+  to bottom,
+  #0f172a 0%,
+  rgba(17, 24, 39, 0.9) 20%,
+  #111827 40%,
+  rgba(28, 35, 52, 0.6) 60%,
+  #0f172a 80%,
+  #0d1427 100%
+);
+
+/* Tailwind's gray-900 */
+  color: white;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+/* Canvas background layer */
+.canvas-background {
+  position: fixed;
+  inset: 0;
+  z-index: -10;
+}
+
+/* Loading screen styles */
+.loader-container {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #111827;
+  z-index: 50;
+}
+
+.loader-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  width: 100%;
+}
+

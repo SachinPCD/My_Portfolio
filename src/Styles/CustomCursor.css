@@ -1,0 +1,22 @@
+.cursor-glow {
+  position: fixed;
+  pointer-events: none;
+  width: 1200px;
+  height: 1200px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%); /* This is the key for centering */
+  z-index: 9999;
+  
+  /* Subtle white glow */
+background: radial-gradient(
+  circle,
+  rgba(255, 255, 255, 0.082) 0%,         /* bright white center */
+  rgba(255, 255, 255, 0.062) 25%,        /* soft white */
+  rgba(100, 100, 100, 0.042) 50%,       /* light gray */
+  rgba(30, 30, 30, 0.022) 75%,          /* dark gray */
+  rgba(0, 0, 0, 0) 100%                /* transparent edge */
+);
+
+  
+  /* Optional: Remove if you don't want the pulse */
+}
