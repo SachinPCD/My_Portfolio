@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls } from '@react-three/drei'
-import MouseLight from './Components/MouseLight'
 import './App.css' // 👈 CSS import
 import Navbar from './Components/Navbar.jsx'
 import Hero from './Components/Hero'
