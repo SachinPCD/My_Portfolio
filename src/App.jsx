@@ -52,7 +52,6 @@ const App = () => {
           <Canvas className="canvas-background">
             <CustomStars />
             <OrbitControls enableZoom={false} />
-         <MouseLight /> 
           </Canvas>
           <Navbar />
           <Hero />
